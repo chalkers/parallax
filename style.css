@@ -1,0 +1,72 @@
+	body{ 
+			margin: 0px; 
+			text-align: center;
+			/*background: url(../img/bg1.jpg) fixed; */
+			background-position: center center;
+			-webkit-background-size: cover;	
+			-moz-background-size: cover;	
+			-o-background-size: cover;	
+			background-size: cover;	
+			color: #AAA;		
+		}
+
+
+		img { max-width: 100%; }
+		
+		#pagetop {
+			position: fixed;
+			top: 0px;
+			width: 100%;
+			height: 40px;
+			background: #489acd;
+			color: #fff;
+			font-size: 1.75em;
+			padding-top: 50px;
+			transition: height 0.3s linear 0s, padding 0.3s linear 0s;
+			overflow: hidden;
+			/*margin-left: -50px;*/
+
+		}
+
+		#pagetop > #menu {
+			position: absolute;
+			bottom: 0px;
+			width: 100%;
+			background: #62c0da;
+			height: 50px;
+			transition: height 0.3s linear 0s;
+			margin-left: -50px;
+
+		}
+
+		#wrapper {
+			margin-top: 230px;
+		}
+
+		#prlx_lyr_1 {
+			position: fixed;
+			background: url(../img/clouds1.png) no-repeat 0px 0px;
+			width: 100%;
+			height: 2500px;
+		}
+		#prlx_lyr_2 {
+			position: fixed;
+			background: url(../img/clouds2.png) no-repeat 0px 150px;
+			width: 100%;
+			height: 2500px;
+		}
+
+		#content_layer {
+			/*0px 250px = Left Top positioning */
+			background: url(../img/clouds3.png) repeat 0px 250px;
+			position: absolute;
+			width: 100%;
+			height: 2500px;
+		}
+		h1 {
+			position: fixed;
+			top: 20%;
+			left: 30%;
+			margin: 0 auto;
+			font-size: 1.5em;
+		}
