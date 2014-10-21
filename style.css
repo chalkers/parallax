@@ -45,20 +45,20 @@
 
 		#prlx_lyr_1 {
 			position: fixed;
-			background: url(../img/clouds1.png) no-repeat 0px 0px;
+			background: url(http://marklovettdesign.com/wp-content/uploads/2014/10/clouds1.png) no-repeat 0px 0px;
 			width: 100%;
 			height: 2500px;
 		}
 		#prlx_lyr_2 {
 			position: fixed;
-			background: url(../img/clouds2.png) no-repeat 0px 150px;
+			background: url(http://marklovettdesign.com/wp-content/uploads/2014/10/clouds2.png) no-repeat 0px 150px;
 			width: 100%;
 			height: 2500px;
 		}
 
 		#content_layer {
 			/*0px 250px = Left Top positioning */
-			background: url(../img/clouds3.png) repeat 0px 250px;
+			background: url(http://marklovettdesign.com/wp-content/uploads/2014/10/clouds3.png) repeat 0px 250px;
 			position: absolute;
 			width: 100%;
 			height: 2500px;
